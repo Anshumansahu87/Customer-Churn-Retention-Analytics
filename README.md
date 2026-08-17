@@ -140,26 +140,23 @@ These insights can help businesses:
 
 ---
 
-## 📈 Project Screenshots
-
+## 📊 Project Visualizations
 
 ### Customer Churn Distribution
-![Customer Churn Distribution](screenshots/Customer_churn_distribution.png)
+![Customer Churn Distribution](screenshots/Customer_Churn_Distribution.png)
 
 ### Churn by Contract Type
-![Churn by Contract Type](screenshots/Churn_by_contract_type.png)
-
-### Churn by Tenure Group
-![Churn by Tenure Group](screenshots/Churn_by_tenure_group.png)
+![Churn by Contract Type](screenshots/Churn_by_Contract_Type.png)
 
 ### Churn by Internet Service
-![Churn by Internet Service](screenshots/Churn_by_internet_service.png)
+![Churn by Internet Service](screenshots/Churn_by_Internet_Service.png)
 
 ### Churn by Payment Method
-![Churn by Payment Method](screenshots/Churn_by_payment_method.png)
+![Churn by Payment Method](screenshots/Churn_by_Payment_Method.png)
 
-### Monthly Charges by Churn Status
-![Monthly Charges by Churn Status](screenshots/Monthly_charges_by_churn.png)
+### Churn by Tenure Group
+![Churn by Tenure Group](screenshots/Churn_by_Tenure_Group.png)
+
 
 ---
 

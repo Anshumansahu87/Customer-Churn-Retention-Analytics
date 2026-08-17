@@ -139,23 +139,33 @@ These insights can help businesses:
 > **Note:** Specific numerical findings are presented in the analysis notebooks and visualizations.
 
 ---
-
 ## 📊 Project Visualizations
 
-### Customer Churn Distribution
-![Customer Churn Distribution](screenshots/Customer_Churn_Distribution.png)
+The following visualizations were created using Python, Matplotlib, and Seaborn to analyze customer churn patterns.
 
-### Churn by Contract Type
-![Churn by Contract Type](screenshots/Churn_by_Contract_Type.png)
+### 1. Customer Churn Distribution
 
-### Churn by Internet Service
-![Churn by Internet Service](screenshots/Churn_by_Internet_Service.png)
+![Customer Churn Distribution](screenshots/Customer%20Churn%20Distribution.png)
 
-### Churn by Payment Method
-![Churn by Payment Method](screenshots/Churn_by_Payment_Method.png)
+### 2. Churn by Contract Type
 
-### Churn by Tenure Group
-![Churn by Tenure Group](screenshots/Churn_by_Tenure_Group.png)
+![Churn by Contract Type](screenshots/Churn%20by%20Contract%20Type.png)
+
+### 3. Churn by Internet Service
+
+![Churn by Internet Service](screenshots/Churn%20by%20Internet%20Service.png)
+
+### 4. Churn by Payment Method
+
+![Churn by Payment Method](screenshots/Churn%20by%20Payment%20Method.png)
+
+### 5. Churn by Tenure Group
+
+![Churn by Tenure Group](screenshots/Churn%20by%20Tenure%20Group.png)
+
+### 6. Monthly Charges by Churn Status
+
+![Monthly Charges by Churn Status](screenshots/Monthly%20Charges%20by%20Churn%20Status.png)
 
 
 ---

@@ -1,91 +1,226 @@
-# 📊 Customer Churn & Retention Analytics
+# Customer Churn & Retention Analytics
 
-A portfolio-ready **Data Analytics project** built using **SQL, Python, Pandas, Power BI, Power Query, DAX, and GitHub** to analyze customer churn, retention, revenue, service usage, contract behavior, payment methods, and customer risk segments.
+## 📌 Project Overview
 
-## 🎯 Objectives
+Customer churn is a major business challenge because losing existing customers can directly impact revenue and long-term growth.
 
-- Measure customer churn and retention
-- Identify high-risk customer segments
-- Compare churn across contracts and services
-- Analyze payment-method and tenure patterns
-- Understand revenue exposure from churn
-- Build an interactive Power BI dashboard
-- Validate business metrics using Python and SQL
+This project analyzes customer churn and retention patterns using **Python, Pandas, NumPy, SQL, Matplotlib, and Seaborn**. The objective is to identify factors associated with customer churn, understand customer behavior, and generate actionable business insights for improving customer retention.
+
+---
+
+## 🎯 Project Objectives
+
+* Analyze overall customer churn patterns
+* Identify customer segments with higher churn rates
+* Understand the relationship between customer characteristics and churn
+* Analyze churn based on factors such as contract, tenure, services, and customer demographics
+* Perform SQL-based customer and churn analysis
+* Generate visual insights using Python
+* Provide business recommendations to improve customer retention
+
+---
 
 ## 🛠️ Tools & Technologies
 
-- **SQL** — Business queries and segmentation
-- **Python & Pandas** — Data analysis and validation
-- **Power BI** — Interactive dashboard
-- **Power Query** — Data cleaning and transformation
-- **DAX** — KPI and business measures
-- **CSV** — Dataset
-- **GitHub** — Version control and documentation
+* **Python**
+* **Pandas** – Data cleaning and analysis
+* **NumPy** – Numerical operations
+* **Matplotlib** – Data visualization
+* **Seaborn** – Statistical visualization
+* **SQL** – Data querying and analysis
+* **Jupyter Notebook** – Exploratory data analysis
+* **Git & GitHub** – Version control and project management
 
-## 🖥️ Dashboard
-
-### Page 1 — Customer Overview
-- Total Customers
-- Churned Customers
-- Churn Rate
-- Retention Rate
-- Average Monthly Charges
-- Churn by Contract
-- Churn by Payment Method
-- Churn by Tenure
-
-### Page 2 — Retention & Risk Analysis
-- Average Tenure
-- Annual Revenue
-- Churned Revenue
-- Churn by Internet Service
-- Churn by Tech Support
-- Churn by Paperless Billing
-- Churn by Age Group
-- High-Risk Customer Segments
+---
 
 ## 📂 Project Structure
 
 ```text
 Customer-Churn-Retention-Analytics/
+│
 ├── dataset/
 │   └── customer_churn.csv
-├── sql/
-│   └── customer_churn_analysis.sql
+│
 ├── python/
-│   └── customer_churn_analysis.py
-├── dashboard/
-│   └── PowerBI_Dashboard_Guide.md
+│   └── churn_analysis.py
+│
+├── sql/
+│   └── churn_analysis.sql
+│
 ├── screenshots/
-├── DAX_Measures.txt
+│   ├── churn_overview.png
+│   ├── churn_by_contract.png
+│   └── churn_by_tenure.png
+│
+├── Customer_Churn_Analysis.ipynb
+├── Customer_Churn_SQL_Analysis.ipynb
 ├── README.md
-└── Customer_Churn_Retention_Analytics.pbix
+├── requirements.txt
+└── .gitignore
 ```
 
-## 🚀 How to Use
+---
 
-1. Import `dataset/customer_churn.csv` into Power BI.
-2. Clean and validate fields using Power Query.
-3. Create the DAX measures from `DAX_Measures.txt`.
-4. Build the two dashboard pages using the dashboard guide.
-5. Run the Python script for validation.
-6. Run the SQL queries in a SQL environment after importing the CSV into a database.
-7. Save the final Power BI file as `Customer_Churn_Retention_Analytics.pbix`.
+## 🔍 Analysis Performed
 
-## 📌 Business Insights
+### 1. Data Cleaning
 
-The dashboard is designed to identify:
-- Customer groups with elevated churn risk
-- Contract and payment patterns associated with churn
-- Tenure segments that need stronger retention efforts
-- Revenue exposure associated with churned customers
+The dataset was prepared for analysis by:
 
-> Business insights should be written from the final dashboard results after validation rather than assumed in advance.
+* Checking missing values
+* Removing or handling duplicate records
+* Checking data types
+* Cleaning inconsistent values
+* Preparing categorical and numerical variables for analysis
 
-## 📸 Dashboard Preview
+### 2. Exploratory Data Analysis
 
-Add final Power BI screenshots to the `screenshots/` folder after building the dashboard.
+The project explores customer churn across different dimensions, including:
 
-## 📌 Conclusion
+* Churn status
+* Customer tenure
+* Contract type
+* Payment method
+* Internet/service type
+* Monthly charges
+* Total charges
+* Customer demographics
 
-This project demonstrates an end-to-end Data Analytics workflow using **SQL, Python, Pandas, Power Query, DAX, and Power BI**, from data preparation and validation to interactive dashboarding and customer-retention insights.
+### 3. Customer Segmentation
+
+Customers are analyzed across different groups to identify segments that show relatively higher or lower churn behavior.
+
+### 4. SQL Analysis
+
+SQL queries are used to perform customer-level and business-level analysis, including:
+
+* Total customers
+* Churned customers
+* Churn rate
+* Customer segmentation
+* Churn by contract type
+* Churn by tenure
+* Revenue-related analysis
+* Identification of high-risk customer groups
+
+### 5. Data Visualization
+
+Python visualizations are created using **Matplotlib and Seaborn** to make churn patterns easier to understand.
+
+---
+
+## 📊 Key Business Questions
+
+The analysis focuses on questions such as:
+
+* What percentage of customers have churned?
+* Which customer segments have higher churn?
+* Does customer tenure affect churn?
+* Which contract types have higher churn?
+* Which services are associated with higher churn?
+* How does monthly spending relate to churn?
+* Which customer groups should businesses prioritize for retention?
+
+---
+
+## 💡 Business Insights
+
+The analysis helps identify customer groups that may have a higher likelihood of churn.
+
+These insights can help businesses:
+
+* Identify high-risk customer segments
+* Improve customer retention strategies
+* Develop targeted offers and promotions
+* Improve customer service for at-risk customers
+* Encourage customers toward longer-term contracts
+* Focus retention efforts on valuable customer segments
+
+> **Note:** Specific numerical findings are presented in the analysis notebooks and visualizations.
+
+---
+
+## 📈 Project Screenshots
+
+
+### Customer Churn Distribution
+![Customer Churn Distribution](screenshots/Customer_churn_distribution.png)
+
+### Churn by Contract Type
+![Churn by Contract Type](screenshots/Churn_by_contract_type.png)
+
+### Churn by Tenure Group
+![Churn by Tenure Group](screenshots/Churn_by_tenure_group.png)
+
+### Churn by Internet Service
+![Churn by Internet Service](screenshots/Churn_by_internet_service.png)
+
+### Churn by Payment Method
+![Churn by Payment Method](screenshots/Churn_by_payment_method.png)
+
+### Monthly Charges by Churn Status
+![Monthly Charges by Churn Status](screenshots/Monthly_charges_by_churn.png)
+
+---
+
+## 🚀 How to Run the Project
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Anshumansahu87/Customer-Churn-Retention-Analytics.git
+```
+
+### 2. Navigate to the project folder
+
+```bash
+cd Customer-Churn-Retention-Analytics
+```
+
+### 3. Install the required libraries
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Run the Jupyter Notebook
+
+```bash
+jupyter notebook
+```
+
+Then open:
+
+```text
+Customer_Churn_Analysis.ipynb
+```
+
+For SQL analysis, open:
+
+```text
+Customer_Churn_SQL_Analysis.ipynb
+```
+
+---
+
+## 📌 Dataset
+
+The project uses a customer churn dataset containing customer information, service details, account information, and churn status.
+
+The dataset is used strictly for educational and analytical purposes.
+
+---
+
+## 📋 Conclusion
+
+This project demonstrates how **Python and SQL** can be used together to analyze customer churn and retention patterns.
+
+The analysis converts raw customer data into meaningful business insights that can support **customer retention, segmentation, and data-driven decision-making**.
+
+---
+
+## 👤 Author
+
+**Anshuman Sahu**
+
+GitHub: [Anshumansahu87](https://github.com/Anshumansahu87)
